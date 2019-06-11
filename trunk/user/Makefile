@@ -130,6 +130,7 @@ endif
 endif
 dir_$(CONFIG_FIRMWARE_INCLUDE_SHADOWSOCKS)	+= chnroute
 dir_$(SHADOWSOCKS_ENABLE)				+= shadowsocks
+dir_$(CONFIG_FIRMWARE_INCLUDE_DOGCOM)			+= dogcom
 dir_$(CONFIG_FIRMWARE_INCLUDE_TOR)		+= tor
 dir_$(CONFIG_FIRMWARE_INCLUDE_PRIVOXY)		+= privoxy
 dir_$(CONFIG_FIRMWARE_INCLUDE_DNSCRYPT)	+= dnscrypt-proxy
